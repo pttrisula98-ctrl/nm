@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#1a5c3a" name="theme-color"/>
+<title>Build a 12-Month Cash Flow Forecast – Money Mechanics</title>
+<meta content="How to build a 12-month personal cash flow forecast: list income and expenses by month, add irregular costs, find surpluses and shortfalls early, and avoid surprise overdrafts." name="description"/>
+<link href="https://moneymechanics.example/cash-flow-forecast.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Build a 12-Month Cash Flow Forecast" property="og:title"/>
+<meta content="See surpluses and shortfalls months ahead, plan for irregular expenses, and avoid surprise overdrafts." property="og:description"/>
+<meta content="https://moneymechanics.example/cash-flow-forecast.html" property="og:url"/>
+<meta content="Money Mechanics" property="og:site_name"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💰%3C/text%3E%3C/svg%3E" rel="icon" type="image/svg+xml"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Build a 12-Month Cash Flow Forecast","datePublished":"2026-10-24","dateModified":"2026-10-24","author":{"@type":"Organization","name":"Money Mechanics Editorial Team"},"publisher":{"@type":"Organization","name":"Money Mechanics","url":"https://moneymechanics.example/"},"mainEntityOfPage":"https://moneymechanics.example/cash-flow-forecast.html","inLanguage":"en-US"}</script>
+<script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8476774265191060"></script>
+<meta content="ca-pub-8476774265191060" name="google-adsense-account"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#f4f4f4;--card:#fff;--text:#222;--muted:#666;--line:#e3e3e3;--accent:#1a5c3a;--accent-hover:#14472d;--focus:#1a5c3a;--container:1120px;--radius:8px;--shadow:0 2px 8px rgba(0,0,0,.08);--shadow-lg:0 8px 24px rgba(0,0,0,.12);--transition:180ms ease}
+@media(prefers-color-scheme:dark){:root{--bg:#141414;--card:#1f1f1f;--text:#eee;--muted:#aaa;--line:#333;--shadow:0 2px 8px rgba(0,0,0,.4);--shadow-lg:0 8px 24px rgba(0,0,0,.5)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 "Source Sans 3",system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:var(--container);margin:0 auto;padding:0 16px}
+.skip{position:absolute;top:-100%;left:16px;background:var(--accent);color:#fff;padding:8px 12px;border-radius:var(--radius);z-index:100}
+.skip:focus{top:16px}
+header{background:var(--accent);position:sticky;top:0;z-index:20;box-shadow:var(--shadow)}
+.bar{display:flex;gap:20px;align-items:center;height:52px;color:#fff;overflow-x:auto}
+.logo{font-weight:700;font-size:20px;margin-right:auto;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.logo svg{width:28px;height:28px}
+.bar nav{display:flex;gap:16px}
+.bar a{font-weight:600;white-space:nowrap;padding:6px 8px;border-radius:4px}
+.bar a:hover{background:rgba(255,255,255,.15)}
+main{padding:24px 0 48px}
+.tag{background:var(--accent);color:#fff;font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px;width:fit-content;display:inline-block;margin-bottom:8px}
+.meta{font-size:13px;color:var(--muted)}
+.ad-slot{max-width:780px;margin:28px auto;display:block}
+.source-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;font-size:14px}
+.source-links a{font-weight:600;color:var(--accent)}
+.source-links a:hover{text-decoration:underline}
+footer{background:#111;color:#bbb;padding:36px 16px;text-align:center;font-size:14px}
+footer a{margin:0 12px;color:#fff;white-space:nowrap;line-height:2}
+footer .small{max-width:780px;margin:12px auto 0;font-size:13px;color:#999;line-height:1.6}
+footer .small a{color:#bbb;margin:0}
+footer .small a:hover{color:#fff}
+
+/* ===== Article layout (ditambahkan, tetap dalam satu file) ===== */
+.breadcrumb{font-size:14px;color:var(--muted);margin:0 0 16px}
+.breadcrumb a{color:var(--accent);font-weight:600}
+.breadcrumb a:hover{text-decoration:underline}
+.article{max-width:780px;margin:0 auto;background:var(--card);padding:32px 36px;border-radius:var(--radius);box-shadow:var(--shadow)}
+@media(max-width:640px){.article{padding:22px 18px}}
+.article h1{font-size:34px;line-height:1.2;margin:8px 0 12px;font-weight:700}
+.article h2{font-size:24px;line-height:1.3;margin:36px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.article h3{font-size:19px;margin:24px 0 8px}
+.article p{margin:0 0 16px}
+.article ol,.article ul{margin:0 0 16px;padding-left:24px}
+.article li{margin-bottom:6px}
+.article a{color:var(--accent);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.article-meta{font-size:14px;color:var(--muted);margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.lead{font-size:19px;color:var(--text)}
+.callout{background:var(--bg);border-left:4px solid var(--accent);padding:14px 18px;border-radius:4px;margin:20px 0;font-size:16px}
+.callout strong{color:var(--accent)}
+.table-wrap{overflow-x:auto;margin:16px 0 20px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--bg);font-weight:700}
+td.num,th.num{text-align:right;white-space:nowrap}
+tr.total td{font-weight:700;border-top:2px solid var(--text)}
+.neg{color:#b91c1c;font-weight:700}
+.faq h3{margin-top:20px}
+.disclaimer{font-size:14px;color:var(--muted);border-top:1px solid var(--line);margin-top:36px;padding-top:16px}
+.related{margin-top:8px}
+.related-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;list-style:none;padding:0}
+.related-list li{margin:0}
+.related-list a{display:block;background:var(--bg);padding:12px 14px;border-radius:var(--radius);text-decoration:none;color:var(--text);font-weight:600;font-size:15px}
+.related-list a:hover{box-shadow:var(--shadow)}
+@media(max-width:640px){.related-list{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="container bar">
+<a class="logo" href="index.html"><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>Money Mechanics</a>
+<nav aria-label="Primary navigation">
+<a href="index.html#budget">Budgeting</a>
+<a href="index.html#save">Saving</a>
+<a href="index.html#invest">Investing</a>
+<a href="index.html#tax">Taxes</a>
+<a href="index.html#credit">Credit</a>
+<a href="index.html#retire">Retirement</a>
+<a href="about.html">About</a>
+</nav>
+</div></header>
+
+<main id="main" class="container">
+
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; <a href="index.html#budget">Budgeting &amp; Cash Flow</a> &rsaquo; 12-Month Cash Flow Forecast</nav>
+
+<article class="article">
+<span class="tag">Budgeting</span>
+<h1>Build a 12-Month Cash Flow Forecast</h1>
+<div class="article-meta">By Money Mechanics Editorial Team · Published October 24, 2026 · Updated October 24, 2026 · 8 min read</div>
+
+<p class="lead">A budget tells you what you plan to spend. A cash flow forecast tells you when money will actually arrive and leave, month by month, for the next year. It is the tool that shows a shortfall in March before it becomes an overdraft in March.</p>
+
+<p>Most personal finance advice focuses on monthly averages. Averages hide timing. If your rent is due on the first, your car insurance renews in June, and your freelance payments arrive irregularly, your average monthly position can look healthy while your account drops below zero for a week. A 12-month forecast makes those timing gaps visible.</p>
+
+<h2>Step 1: Set up the grid</h2>
+<p>Create a spreadsheet with twelve columns, one for each upcoming month, and rows for each income source and expense category. Add an opening balance row at the top with the amount you expect in your main checking account on the first day of the forecast. Add a closing balance row at the bottom. Each month's closing balance becomes the next month's opening balance.</p>
+
+<h2>Step 2: Enter income by date</h2>
+<p>List every income source with the month it is expected to arrive. A salary that arrives on the 15th belongs in that month, not spread across the year. For irregular income, use conservative estimates, such as the lower end of your typical range. Leave a row for uncertain income so you can see its effect on the total.</p>
+
+<h2>Step 3: Enter expenses by due date</h2>
+<p>Enter fixed expenses in the months they are actually paid. Rent, loan payments, and subscriptions usually repeat monthly, but insurance premiums, property taxes, and annual memberships do not. Use your bank and card statements to confirm due dates. Mark any expense that is a one-time or seasonal cost, such as holiday gifts, a car registration, or a medical deductible.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Month</th><th class="num">Opening</th><th class="num">Income</th><th class="num">Expenses</th><th class="num">Closing</th></tr></thead>
+<tbody>
+<tr><td>January</td><td class="num">$2,000</td><td class="num">$4,200</td><td class="num">$4,000</td><td class="num">$2,200</td></tr>
+<tr><td>February</td><td class="num">$2,200</td><td class="num">$3,800</td><td class="num">$4,000</td><td class="num">$2,000</td></tr>
+<tr><td>March</td><td class="num">$2,000</td><td class="num">$4,200</td><td class="num">$4,900</td><td class="num"><span class="neg">$1,300</span></td></tr>
+<tr><td>April</td><td class="num">$1,300</td><td class="num">$4,200</td><td class="num">$4,000</td><td class="num">$1,500</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The example is illustrative. March shows an expense spike, such as an annual insurance premium, that drops the closing balance. Seeing it in advance gives you time to move money from another month's surplus or set aside funds earlier.</p>
+
+<h2>Step 4: Calculate the closing balance</h2>
+<p>For each month, closing balance equals opening balance plus income minus expenses. Carry that number into the next month's opening balance. Work across all twelve months. Any month with a negative closing balance is a shortfall you need to address. Any month with a large positive balance is a candidate for savings or debt repayment.</p>
+
+<h2>Step 5: Fix shortfalls before they happen</h2>
+<p>When the forecast shows a shortfall, you have several options. You can move a due date if your provider allows it. You can build a sinking fund by setting aside money in earlier months for the expensive bill. You can reduce discretionary spending during the weak months, or delay a discretionary purchase. If the gap is large, you may need a short-term source of funds, but borrowing should be a last resort and compared carefully with the alternatives. Our guide on <a href="sinking-funds.html">sinking funds</a> explains how to spread irregular costs across the year.</p>
+
+<div class="callout"><strong>Keep a minimum balance:</strong> Set a minimum balance you never want your account to drop below, such as one month of essential expenses. Use it as the threshold in your forecast. Any month that falls below it is a warning.</div>
+
+<h2>Update the forecast regularly</h2>
+<p>A forecast is only useful if it reflects reality. Update it at least once a month by replacing estimates with actual income and spending, then review the next twelve months again. Changes in pay, a new subscription, a rent increase, or a planned purchase should all trigger an update.</p>
+
+<h2>Common mistakes</h2>
+<ul>
+<li>Using monthly averages instead of recording when each payment actually leaves your account.</li>
+<li>Forgetting annual and quarterly expenses.</li>
+<li>Assuming irregular income will arrive on schedule.</li>
+<li>Building the forecast once and never revisiting it.</li>
+</ul>
+
+<div class="faq">
+<h2>Frequently asked questions</h2>
+<h3>How accurate does a forecast need to be?</h3>
+<p>It does not need to be exact. The goal is to catch timing problems and large gaps early. Recalculate as actual numbers come in and treat the forecast as a working tool rather than a promise.</p>
+<h3>Should I include savings transfers?</h3>
+<p>Include them as expenses or as transfers to a separate account, depending on how you track savings. Keeping them visible helps you see whether saving goals are realistic given your cash timing.</p>
+<h3>Can I use this method for a small business?</h3>
+<p>Yes, and the same principles apply. Businesses often need more detail on receivables and payables, and some owners work with an accountant to set up a more complete model.</p>
+</div>
+
+<div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8476774265191060" data-ad-slot="8319694248" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+<h2>Sources and further reading</h2>
+<p>For official guidance on managing cash, budgeting, and avoiding overdraft fees, review the resources below.</p>
+<div class="source-links">
+<a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener">CFPB</a>
+<a href="https://www.federalreserve.gov/" target="_blank" rel="noopener">Federal Reserve</a>
+</div>
+
+<div class="disclaimer">This article is for general educational purposes only and is not financial, tax, or legal advice. Forecasts are estimates and depend on assumptions that may not hold. Consult a qualified professional for guidance on your specific situation.</div>
+
+<div class="related">
+<h2>Related guides</h2>
+<ul class="related-list">
+<li><a href="zero-based-budgeting.html">Zero-Based Budgeting: Give Every Dollar a Job</a></li>
+<li><a href="sinking-funds.html">Sinking Funds: Plan for Irregular Expenses</a></li>
+<li><a href="irregular-income-budget.html">Budgeting on Irregular or Freelance Income</a></li>
+<li><a href="expense-tracking-methods.html">Expense Tracking: Apps, Spreadsheets, and the Envelope Method</a></li>
+</ul>
+</div>
+</article>
+
+</main>
+
+<footer>
+<p><a href="about.html">About</a><a href="editorial-policy.html">Editorial Policy</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="disclaimer.html">Disclaimer</a><a href="contact.html">Contact</a></p>
+<p>© 2026 Money Mechanics. Educational content only – not financial, tax, legal or investment advice.</p>
+<p class="small">We are not a registered investment advisor, broker-dealer, or tax professional. Not affiliated with any bank, brokerage, or government agency. This site displays third-party advertising, including Google AdSense. See our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+</footer>
+
+</body>
+</html>
